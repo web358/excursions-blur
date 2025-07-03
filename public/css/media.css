@@ -1,0 +1,226 @@
+.bigDiv {
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 23%;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow:  2px 1px 2px rgb(73, 64, 40);
+}
+
+.mobileDiv {
+  position: absolute;
+  margin-top: 35%;
+  z-index: 1;
+  margin-left: 5%;
+  width: 80%;
+  color: white;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow:  2px 1px 2px rgb(73, 64, 40);
+}
+.tabletDiv {
+  position: absolute;
+margin-top: 35%;
+z-index: 1;
+margin-left: 10%;
+width: 80%;
+color: white;
+font-size: 20px;
+font-family: "Lucida Console", "Courier New", monospace;
+text-shadow:  2px 1px 2px rgb(73, 64, 40);
+}
+a {
+  color: white;
+  font-size: 25px;
+  text-shadow:  2px 1px 2px rgb(73, 64, 40);
+}
+
+@media screen and (min-width: 854px) {
+  .mobile {
+    display: none;
+  }
+  .mobileDiv {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .tabletDiv {
+    display: none;
+  }
+  .big {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(2.5px);
+  }
+  .bigDiv {
+    display: block;
+  }
+  a {
+    font-size: 25px;
+  }
+  }
+  @media screen and (max-width: 540px) {
+    .big {
+      display: none;
+    }
+    .bigDiv {
+      display: none;
+    }
+    .tablet {
+      display: none;
+    }
+    .tabletDiv {
+      display: none;
+    }
+    .mobile {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      filter: blur(2.5px);
+    }
+    .mobileDiv {
+      position: absolute;
+    }
+    a {
+      margin-left: -8%;
+      font-size: 10px;
+    }
+    }
+    @media screen and (width: 768px) {
+      .tablet {
+        display: block;
+        width: 105%;
+        object-fit: cover;
+        filter: blur(2.5px);
+      }
+      .tabletDiv {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .mobileDiv {
+        display: none;
+      }
+      .big {
+        display: none;
+      }
+      .bigDiv {
+        display: none;
+      }
+      a {
+        margin-left: -4%;
+        font-size: 18px;
+      }
+    }
+    @media screen and (width: 820px) {
+      .tablet {
+        display: block;
+        width: 105%;
+        object-fit: cover;
+        filter: blur(2.5px);
+      }
+      .tabletDiv {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .mobileDiv {
+        display: none;
+      }
+      .big {
+        display: none;
+      }
+      .bigDiv {
+        display: none;
+      }
+      a {
+        margin-left: -4%;
+        font-size: 18px;
+      }
+    }
+    @media screen and (width: 1024px) {
+      .tablet {
+        display: block;
+        width: 105%;
+        object-fit: cover;
+        filter: blur(2.5px);
+      }
+      .tabletDiv {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .mobileDiv {
+        display: none;
+      }
+      .big {
+        display: none;
+      }
+      .bigDiv {
+        display: none;
+      }
+      a {
+        margin-left: -4%;
+        font-size: 18px;
+      }
+    }
+    @media screen and (width: 912px) {
+      .tablet {
+        display: block;
+        width: 105%;
+        object-fit: cover;
+        filter: blur(2.5px);
+      }
+      .tabletDiv {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .mobileDiv {
+        display: none;
+      }
+      .big {
+        display: none;
+      }
+      .bigDiv {
+        display: none;
+      }
+      a {
+        margin-left: -4%;
+        font-size: 18px;
+      }
+    }
+    @media screen and (width: 853px) {
+      .tablet {
+        display: block;
+        width: 105%;
+        object-fit: cover;
+        filter: blur(2.5px);
+      }
+      .tabletDiv {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      .mobileDiv {
+        display: none;
+      }
+      .big {
+        display: none;
+      }
+      .bigDiv {
+        display: none;
+      }
+      a {
+        margin-left: -4%;
+        font-size: 18px;
+      }
+    }
